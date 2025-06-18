@@ -1,13 +1,16 @@
-# Ignorar carpetas comunes
-node_modules/
+# Ignora carpetas del sistema
 .vscode/
-dist/
-build/
+node_modules/
 *.log
 *.tmp
 *.cache
-*.env
-
-# Archivos del sistema
-.DS_Store
+*.DS_Store
 Thumbs.db
+
+# Carpetas de compilación
+dist/
+build/
+
+# Archivos personales o de configuración
+*.env
+*.bak
