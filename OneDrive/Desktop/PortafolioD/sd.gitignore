@@ -1,0 +1,13 @@
+# Ignorar carpetas comunes
+node_modules/
+.vscode/
+dist/
+build/
+*.log
+*.tmp
+*.cache
+*.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
